@@ -1,5 +1,5 @@
 # Patreon Downloader
-Chrome Extension for easy download all media content from Patreon
+Chrome Extension for easy download media content from Patreon
 
 ## Install
 1. Open chrome://extensions
