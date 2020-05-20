@@ -1,17 +1,9 @@
-# <img src="public/icons/icon_48.png" width="45" align="left"> Patreon Downloader
-
-My Chrome Extension
-
-## Features
-
-- Feature 1
-- Feature 2
+# Patreon Downloader
+Chrome Extension for easy download all media content from Patreon
 
 ## Install
+1. Open chrome://extensions
+2. Check the Developer mode checkbox
+3. Click on the Load unpacked extension button
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
-
-## Contribution
-
-Suggestions and pull requests are welcomed!.
-
+Good Luck Have Fun :)

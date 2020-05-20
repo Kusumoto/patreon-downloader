@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Patreon Downloader",
+  "version": "0.1.0",
+  "description": "My Chrome Extension",
+  "browser_action": {
+    "default_title": "Patreon Downloader",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.patreon.com/posts/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ]
+}
