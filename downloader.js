@@ -34,6 +34,5 @@ chrome.runtime.sendMessage({type: "getPatreonPayload"}, function(payload) {
     </div>`
     $("#data").append(DOM);
     })
-    console.log(contentData);
   }
 });
